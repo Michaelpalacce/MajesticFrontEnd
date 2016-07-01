@@ -1,0 +1,301 @@
+body,.container,h3,h1,h2,h4,h5,a,form,input,p{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+}
+body{
+    background: url('imgs/dotgrid.png');
+}
+
+.logo{
+    display: inline-flex;
+}
+.logo-img{
+    width:90px;
+    height:60px;
+}
+.logo-title{
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:0;
+    color: darkred;
+    font-family:sans-serif;
+    font-size:35px;
+
+}
+.page{
+    width:100%;
+    background: white;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    box-shadow: 0 0 8px #888;
+    overflow: hidden;
+}
+.page-container{
+    width:95%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.links{
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.links a{
+    color: #262626;
+    padding:10px 20px;
+    font-size:25px;
+    margin:5px;
+    text-decoration: none !important;
+}
+.links a:hover{
+    background: #BE4E20;
+    color: white;
+}
+.links .join{
+    margin-left:120px;
+    padding:7px 30px;
+    border:0;
+    background: #2077BA;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    border-radius:1px;
+    cursor: pointer;
+    font-size:18px;
+    font-family:Arial;
+    font-weight:bold;
+    color: white;
+}
+.social{
+    float: right;
+}
+.icon{
+    margin-top:10px;
+    height:25px;
+    margin-bottom:10px;
+    margin-right:2px;
+}
+.top-image img{
+    width:100%;
+    height:600px;
+}
+
+.top-image {
+    margin-top:50px;
+    position: relative;
+}
+.top-image .ribbon{
+    position: absolute;
+    top:0;
+    right:0;
+    margin-top:40px;
+    background: url("imgs/ribbon.png") no-repeat;
+    padding:20px 40px;
+}
+.ribbon p{
+    color: white;
+    text-align: center;
+}
+.ribbon .slider-top{
+    background: transparent;
+    border:0;
+    padding:0;
+    outline:none;
+    font-size:50px;
+    color: white;
+}
+.look{
+    margin:0;
+}
+.ribbon button:hover{
+    color: cornflowerblue;
+}
+.top-image .description{
+    width:300px;
+    padding:20px;
+    background: url('imgs/dotgrid.png');
+    background-color: rgba(33,118,184,0.50);
+    color: white;
+    position: absolute;
+    left:0;
+    bottom:0;
+    margin-left:40px;
+    margin-bottom:60px;
+}
+
+.top-image .description hr{
+    border:none;
+    border-top:2px dotted white;
+    color:#fff;
+    background-color:transparent;
+    height:1px;
+}
+.top-image .description .title{
+    font-size:35px;
+}
+.description .more-button{
+    background: transparent;
+    font-size:18px;
+    font-style: italic;
+    font-weight:bold;
+    color: #fff;
+    border:0;
+    cursor: pointer;
+    outline:none;
+    margin-top:10px;
+}
+
+.about .col-img{
+    width:100%;
+    height:150px;
+}
+.about{
+    margin-top:40px;
+    /*display: inline-flex;*/
+}
+
+.col{
+    padding:20px;
+    margin:0 auto;
+    border:1px solid lightgray;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    border-radius:1px;
+}
+
+.about hr{
+    border:none;
+    border-top:2px solid cornflowerblue;
+    color:#fff;
+    background-color:transparent;
+    height:1px;
+    margin-bottom:20px;
+}
+.about .col-title{
+    font-size:25px;
+    font-weight:bold;
+}
+.about .col-text{
+    margin-top:10px;
+    color: #282828;
+}
+
+.col button{
+    background: #BE4E20;
+    border:0;
+    font-size:18px;
+    margin-top:10px;
+    float: right;
+    color: white;
+    padding:5px 25px;
+    cursor: pointer;
+}
+.professionals{
+    width:100%;
+    display: block;
+    margin:20px auto;
+    background: url("imgs/dotgrid.png");
+}
+.top{
+    display: inline-flex;
+    overflow: hidden;
+}
+.top p{
+    color: #282828;
+    font-size:30px;
+    float: left;
+    margin:20px 35px;
+}
+.professionals button{
+    display: inline;
+    padding:10px 25px;
+    font-size:18px;
+    background: #72B837;
+    color: #000;
+    border:0;
+    outline:none;
+    cursor: pointer;
+    float: right;
+    margin:20px 35px;
+}
+.professionals hr{
+    border:none;
+    border-top:3px solid cornflowerblue;
+    color:#fff;
+    background-color:transparent;
+    height:1px;
+    width:95%;
+    margin-bottom:20px;
+}
+.professionals .bottom{
+    display: inline-flex;
+    width:100%;
+}
+
+.slide{
+    display: inline-flex;
+    margin:0 auto;
+}
+.active{
+    display: inline-flex;
+}
+.inactive{
+    display: none;
+}
+.slide .professional{
+    display: inline-flex;
+    margin:10px 50px;
+}
+.slide .professional img{
+    height:80px;
+    width:80px;
+}
+.professional .professional-content .title{
+    color: indianred;
+}
+
+.arrow{
+    position: absolute;
+    display: inline-flex;
+    margin-top:70px;
+    margin-left:-120px;
+}
+.arrow img{
+    height:90px;
+    width:90px;
+}
+.arrow-right{
+    margin-left:1160px;
+}
+
+.img-stable-left {
+    float: left;
+    margin-right:20px;
+}
+.services{
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+.services-content{
+    position: relative;
+    border-top:2px dashed lightgray;
+    border-bottom:2px dashed lightgray;
+    border-right:2px dashed lightgray;
+}
+.services-last{
+    border-right:0;
+}
+.service{
+    padding-left:0px !important;
+    padding-right:0px !important;
+    overflow: hidden;
+}
+.services-title{
+    font-size:20px;
+    border-left:2px dashed lightgray;
+}
+.title-first{
+    border-left:0;
+}
